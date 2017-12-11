@@ -17,7 +17,9 @@
         android:text="Zabrze"
         android:textColor="@android:color/white"
         tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="124dp" />
+        tools:layout_editor_absoluteY="124dp"
+        android:id="@+id/miasto"/>
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="102dp"
@@ -71,18 +73,18 @@
         android:id="@+id/podaj_nazwe"/>
 
     <Button
-        android:id="@+id/przycisk_zmiana"
+        android:id="@+id/przycisk_zmien"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:text="ZMIEŃ MIEJSCE"
         tools:layout_editor_absoluteX="120dp"
         tools:layout_editor_absoluteY="366dp"
-
+        android:onClick=""
         />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/przycisk_lista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20dp"

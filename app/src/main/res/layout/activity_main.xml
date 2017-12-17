@@ -64,25 +64,24 @@
         app:layout_constraintVertical_bias="0.579" />
 
 
+
     <EditText
-        android:id="@+id/podaj_nazwe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="none"
-        android:singleLine="false"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="304dp" />
+        tools:layout_editor_absoluteY="304dp"
+        android:id="@+id/podaj_nazwe"/>
 
     <Button
         android:id="@+id/przycisk_zmien"
-        android:layout_width="280dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="clik_zmien_miejsce"
         android:padding="20dp"
-        android:shadowColor="@android:color/white"
         android:text="ZMIEŃ MIEJSCE"
         tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="366dp" />
+        tools:layout_editor_absoluteY="366dp"
+        android:onClick="clik_zmien_miejsce"
+        />
 
     <Button
         android:id="@+id/przycisk_lista"
@@ -92,7 +91,6 @@
         android:text="POKARZ LISTĘ DOSTEPNYCH MIEJSC"
         tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="425dp"
-        android:shadowColor="@android:color/white"
         android:onClick="clik_lista"
         />
 

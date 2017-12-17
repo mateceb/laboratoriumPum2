@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_bright"
+    tools:context="com.example.student.pum_lab_2.Activity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kliknąłeś w listę miejsc"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="124dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista aktualnie jest nie dostępna"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="124dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="124dp"
+        android:id="@+id/miasto2"/>
+
+
+
+</LinearLayout>
